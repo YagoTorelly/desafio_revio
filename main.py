@@ -89,9 +89,7 @@ class MunicipioService:
                 except requests.exceptions.RequestException:
                     continue  
 
-            # Primeiro ordena em ordem decrescente para pegar os 10 maiores
             top_10_municipios = sorted(resultado_gabriel.items(), key=lambda x: x[1], reverse=True)[:10]
-            # Depois inverte a ordem para ter do menor para o maior
             resultado_ordenado = dict(reversed(top_10_municipios))
 
             with open("resultado_gabriel.json", "w", encoding='utf-8') as f:
