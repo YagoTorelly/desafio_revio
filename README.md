@@ -12,7 +12,6 @@ Projeto desenvolvido em Python com FastAPI para consultar os municípios do esta
 
 ### Endpoints disponíveis
 
-| ------ | -------------------------- | ----------------------------------------------------------------------- |
 | GET    | `/lista_municipios_SP`     | Retorna todos os municípios de SP com nome, ID e UF.                    |
 
 | GET    | `/municipios_dic`          | Retorna um dicionário `{id: nome}` com todos os municípios.             |
