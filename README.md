@@ -40,6 +40,9 @@ cd desafio_revio
 
 ### 4. Utiliza o Swagger UI para visualização do funcionamento de cada GET
 
+![image](https://github.com/user-attachments/assets/b6cf1185-52c7-40b9-8405-083738ccfc19)
+
+
 
 
 
