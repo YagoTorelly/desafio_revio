@@ -21,17 +21,16 @@ Projeto desenvolvido em Python com FastAPI para consultar os municípios do esta
 | GET    | `/verificar_gabriel_top10` | Retorna os 10 municípios onde "Gabriel" tem maior frequência no Top 10. |
 
 
-## 🚀 Como executar o projeto
+# Passo a passo para fazer o desafio funcionar
+
 
 ### 1. Clone o repositório
 
-```bash
 git clone https://github.com/YagoTorelly/desafio_revio.git
 
 
 ### 2. Navega para a pasta do desafio
 
-'''bash
 cd desafio_revio
 
 ### 3. Executa o código 
@@ -39,14 +38,18 @@ cd desafio_revio
 "python main.py"
 
 ### 4. Utiliza o Swagger UI para visualização do funcionamento de cada GET
-
-![image](https://github.com/user-attachments/assets/b6cf1185-52c7-40b9-8405-083738ccfc19)
-
+![image](https://github.com/user-attachments/assets/acd9ae41-c3ec-4aec-ad2a-64a2ab310b98)
 
 
 
 
-### pip install fastapi uvicorn requests
+
+
+
+
+## Instalar as Bibliotecas que contem nesse projeto 
+
+### pip install fastapi uvicorn requests time 
 
 
 
