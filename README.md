@@ -27,7 +27,20 @@ Projeto desenvolvido em Python com FastAPI para consultar os municípios do esta
 
 ```bash
 git clone https://github.com/YagoTorelly/desafio_revio.git
+
+
+### 2. Navega para a pasta do desafio
+
+'''bash
 cd desafio_revio
+
+### 3. Executa o código 
+
+"python main.py"
+
+### 4. Utiliza o Swagger UI para visualização do funcionamento de cada GET
+
+
 
 
 ### pip install fastapi uvicorn requests
